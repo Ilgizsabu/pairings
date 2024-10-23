@@ -5,7 +5,7 @@ const personInfo = {
     country: "USA",
     children: "Alice",
     pets: "Dog-Duke",
-}
+};
 
 const resultArray = [];
 
