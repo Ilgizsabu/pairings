@@ -1,5 +1,4 @@
-
-const obj = {
+const personInfo = {
     name: "John",
     age: 30,
     city: "New York",
@@ -8,14 +7,15 @@ const obj = {
     pets: "Dog-Duke",
 }
 
-const newArray = [];
+const resultArray = [];
 
-for (const key in obj) {
-    const value = obj[key];
+    for (const key in personInfo) {
+        const value = personInfo[key];
 
-    const newObj = {};
-    newObj[key] = value;
+        const keyValuePair = {};
+        keyValuePair[key] = value;
 
-    newArray.push(newObj);
+        resultArray.push(keyValuePair);
+    }
 
-}
+console.log(resultArray);
